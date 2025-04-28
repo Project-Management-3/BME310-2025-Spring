@@ -1,0 +1,39 @@
+# Risk Analizi
+
+Proje için belirlenen olası riskler ve alınacak önlemler aşağıda sıralanmıştır.
+
+## 1. Teknik Riskler
+
+### 1.1 Teknolojik Yetersizlikler
+- **Risk Tanımı:** Seçilen teknolojilerin (Flutter, Node.js, vs.) beklenen performansı ve uyumluluğu göstermemesi.
+- **Olasılık:** Orta
+- **Etki Seviyesi:** Yüksek
+- **Alınacak Önlemler:** Teknoloji seçiminden önce derinlemesine araştırma yapılacak. Alternatif çözümler hazırlanacak. Prototip aşamasında denemeler yapılacak.
+
+### 1.2 API Entegrasyonu Sorunları
+- **Risk Tanımı:** API bağlantılarının düzgün çalışmaması veya entegrasyon sırasında hatalar oluşması.
+- **Olasılık:** Yüksek
+- **Etki Seviyesi:** Orta
+- **Alınacak Önlemler:** API bağlantıları için önceden test yapılacak. API dökümantasyonları düzenli olarak takip edilecek. Entegre edilen API'lere yönelik sistematik testler yapılacak.
+
+## 2. Zamanlama Riskleri
+
+### 2.1 Test Aşamalarındaki Gecikmeler
+- **Risk Tanımı:** Testlerin zamanında yapılmaması veya yeterince kapsamlı olmaması.
+- **Olasılık:** Orta
+- **Etki Seviyesi:** Orta
+- **Alınacak Önlemler:** Test planları erkenden oluşturulacak ve test sürecinin her aşaması takip edilecek. Testler için özel bir kaynak ayrılacak.
+
+## 3. Diğer Riskler
+
+### 3.1 Kullanıcı Geri Bildirimi
+- **Risk Tanımı:** Kullanıcı geri bildirimlerinin projenin erken aşamalarında alınamaması veya geç alınması.
+- **Olasılık:** Düşük
+- **Etki Seviyesi:** Orta
+- **Alınacak Önlemler:** Kullanıcı persona’ları oluşturulacak ve kullanıcılar ile erken testler yapılacak. Geri bildirimler sıkça toplanacak ve değerlendirilecektir.
+
+### 3.2 Yasal ve Düzenleyici Sorunlar
+- **Risk Tanımı:** Projenin yasal gereksinimlere veya sektörel düzenlemelere uymaması.
+- **Olasılık:** Düşük
+- **Etki Seviyesi:** Yüksek
+- **Alınacak Önlemler:** Yasal gereksinimler konusunda danışmanlık alınacak. Proje, sektörel yasal düzenlemelere uygun olacak şekilde tasarlanacak.
