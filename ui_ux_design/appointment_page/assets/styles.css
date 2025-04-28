@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.header {
+    background-color: #005670;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    color: #F5A623;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.form-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333333;
+}
+
+.dropdown {
+    padding: 10px;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #333333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dropdown:focus {
+    outline: none;
+    border-color: #005670;
+}
+
+.submit-button {
+    background-color: #005670;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+}
+
+.submit-button:disabled {
+    background-color: #CCCCCC;
+    cursor: not-allowed;
+}
+
+.submit-button:hover:not(:disabled) {
+    background-color: #004050;
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .back-button {
+        font-size: 20px;
+    }
+
+    .form-container {
+        padding: 15px;
+    }
+
+    .submit-button {
+        margin: 15px;
+        width: calc(100% - 30px);
+    }
+}
