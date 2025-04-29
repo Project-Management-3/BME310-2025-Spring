@@ -7,5 +7,5 @@
 | Veritabanı Yönetimi (SQL / Firebase)     | Temel              | 1                   | Veritabanı şeması ve veri bağlantıları için 1 kişi yeterli.   |
 | API Entegrasyonu                         | Orta               | 2                   | API bağlantı ve test süreçleri için 2 kişi çalışacak.         |
 | UI/UX Tasarımı                           | Temel-Orta         | 1                   | Wireframe ve mockup tasarımları için 1 kişi.                  |
-| Yazılım Testi (Unit Test / Integration Test) | Temel            | 2                   | Backend ve frontend testlerini paylaşarak yapacaklar.        |
+| Yazılım Testi (Unit Test / Integration Test) | Temel            | 1                   | Backend ve frontend testlerini paylaşarak yapacaklar.        |
 | Yayınlama (App Store / Google Play)      | Temel              | 1                   | Mağaza yüklemeleri ve konfigürasyonlar için 1 kişi.           |
